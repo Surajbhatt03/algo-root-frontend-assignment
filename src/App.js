@@ -28,7 +28,7 @@ const ProtectedRoute = ({ children }) => {
 
 function AppContent() {
   return (
-    <Router>
+    <Router basename="/algo-root-frontend-assignment">
       <Routes>
         <Route path="/" element={<AuthPage />} />
         <Route 
